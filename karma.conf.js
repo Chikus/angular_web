@@ -25,7 +25,11 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
+<<<<<<< HEAD
       dir: require('path').join(__dirname, './coverage/my-app'),
+=======
+      dir: require('path').join(__dirname, './coverage/angular-web'),
+>>>>>>> 5303190 (Garbage files)
       subdir: '.',
       reporters: [
         { type: 'html' },

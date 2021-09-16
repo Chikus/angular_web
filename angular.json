@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "my-app": {
+=======
+    "angular-web": {
+>>>>>>> 5303190 (Garbage files)
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +24,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/my-app",
+=======
+            "outputPath": "dist/angular-web",
+>>>>>>> 5303190 (Garbage files)
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +80,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "my-app:build:production"
             },
             "development": {
               "browserTarget": "my-app:build:development"
+=======
+              "browserTarget": "angular-web:build:production"
+            },
+            "development": {
+              "browserTarget": "angular-web:build:development"
+>>>>>>> 5303190 (Garbage files)
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +98,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "my-app:build"
+=======
+            "browserTarget": "angular-web:build"
+>>>>>>> 5303190 (Garbage files)
           }
         },
         "test": {
@@ -107,5 +126,9 @@
       }
     }
   },
+<<<<<<< HEAD
   "defaultProject": "my-app"
+=======
+  "defaultProject": "angular-web"
+>>>>>>> 5303190 (Garbage files)
 }

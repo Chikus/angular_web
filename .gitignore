@@ -1,12 +1,19 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
+<<<<<<< HEAD
 /dist
+=======
+>>>>>>> 5303190 (Garbage files)
 /tmp
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
+<<<<<<< HEAD
 
+=======
+./src/*
+>>>>>>> 5303190 (Garbage files)
 # dependencies
 /node_modules
 
