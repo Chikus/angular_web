@@ -17,10 +17,15 @@ declare const require: {
 // First, initialize the Angular testing environment.
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
+<<<<<<< HEAD
   platformBrowserDynamicTesting(),
   { teardown: { destroyAfterEach: true }},
 );
 
+=======
+  platformBrowserDynamicTesting()
+);
+>>>>>>> 9acacb4 (src files)
 // Then we find all the tests.
 const context = require.context('./', true, /\.spec\.ts$/);
 // And load the modules.
