@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-# MyApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
-=======
 # AngularWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
->>>>>>> 5303190 (Garbage files)
 
 ## Development server
 
