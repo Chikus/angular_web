@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-<<<<<<< HEAD
-=======
 import { RequiredValidator } from '@angular/forms';
 
 
@@ -23,17 +21,10 @@ interface VideoItem{
   likes?:number;
 }
 
->>>>>>> 9acacb4 (src files)
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-<<<<<<< HEAD
-  styleUrls: ['./app.component.scss']
-})
-export class AppComponent {
-  title = 'my-app';
-=======
   //template:'<h1> {{N_Name}} Hola a quien tomaras {{full_name()}}<h1>',
   styleUrls: ['./app.component.scss']
 })
@@ -58,5 +49,4 @@ export class AppComponent {
   }
   // chil component
 
->>>>>>> 9acacb4 (src files)
 }

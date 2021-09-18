@@ -3,16 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
-
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-=======
 import {ChildCompo} from './child.component';
 import {NataComp} from './nata.component';
 import {EmiComp} from './emi.component';
@@ -31,7 +21,6 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes)
->>>>>>> 9acacb4 (src files)
   ],
   providers: [],
   bootstrap: [AppComponent]
